@@ -1,0 +1,9 @@
+path: "C:\\Users\\siddi\\OneDrive\\Desktop\\ARMY"  
+train: "C:\\Users\\siddi\\OneDrive\\Desktop\\ARMY\\Fighter jets\\images\\train_images"
+val: "C:\\Users\\siddi\\OneDrive\\Desktop\\ARMY\\Fighter jets\\images\\val_images"
+# Classes
+nc: 2
+names:
+  - 'fighter jet'
+  - 'drone'
+freeze_until: 8
